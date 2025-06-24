@@ -16,7 +16,7 @@ const WhyedificeLeadership = () => {
                   <h4>Visionaries Behind Our Success</h4>
                   <p>
                     At the helm of Global Edifice Infra stand our distinguished
-                    Managing Directors, Mr. Rakesh and Mr. Jyothish—seasoned
+                    Managing Directors, Mr. Rakesh and Mr. Jyothish Reddy—seasoned
                     industry veterans whose combined expertise spans over a
                     decade of transformative real estate excellence. Their
                     strategic foresight, coupled with an unwavering commitment
@@ -63,7 +63,7 @@ const WhyedificeLeadership = () => {
                         <img src="/LogoBlue.png" alt="" />
                       </div>
                       <div className="card-body">
-                        <p>Mr. Jyothish</p>
+                        <p>Mr. Jyothish Reddy</p>
                         <span> — Managing Director</span>
                       </div>
                     </div>

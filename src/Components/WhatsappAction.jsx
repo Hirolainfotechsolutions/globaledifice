@@ -4,7 +4,7 @@ import "./whatsapp.css"
 const WhatsappAction = () => {
   return (
     <>
-      <a href="tel:+919980883001">
+      <a href="tel:+918043760152">
         <button class="btn-floating phone">
           <img
             src="/icons8-outgoing-call-100.png"

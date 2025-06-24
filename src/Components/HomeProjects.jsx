@@ -161,13 +161,7 @@ const HomeProjects = () => {
                         Thoughtfully Engineered, Exceptionally Lived.
                       </h1>
                       <p>
-                        At Global Edifice, we transcend conventional
-                        construction to create thoughtfully curated living
-                        spaces that embody both contemporary elegance and
-                        enduring warmth. Our commitment to quality manifests in
-                        every detail—from meticulously planned layouts that
-                        optimize natural light and ventilation to premium
-                        finishes that stand the test of time.
+                       Global Edifice defines luxury through intelligent design and superior execution Every apartment, from our elegant mid-rise residences to our commanding high-rise developments, is born from a process of thoughtful engineering, where meticulous planning meets innovative construction techniques. We obsess over every detail, ensuring superior craftsmanship and a seamless blend of aesthetics and functionality. The result is an environment crafted not just for living, but for being exceptionally lived – a space where comfort, convenience, and enduring quality converge to inspire your everyday and truly elevate your lifestyle in Bengaluru.
                       </p>
                       <Link to="#" onClick={showModal}>
                         <button>Get Started</button>

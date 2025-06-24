@@ -66,7 +66,7 @@ const ContactForm = () => {
                       <img src="/phoneicon.svg" alt="" />
                     </div>
                     <p>
-                      <a href="tel:+91 900 832 4444">+91 900 832 4444</a>
+                      <a href="tel:+91 80 4376 0152">+91 80 4376 0152</a>
                     </p>
                   </div>
                   <div className="ContactForm-icon-parent">
@@ -81,16 +81,19 @@ const ContactForm = () => {
                     </p>
                   </div>
                   <div className="contactform-SocialLinks">
-                    <a target="_blank" href="https://www.facebook.com/">
-                      <img src="/facebookcontact.svg" alt="" />
+                    <a target="_blank" href="https://www.facebook.com/Globaledifce/">
+                      <img src="/facebook.svg" alt="" />
                     </a>
-                    <a target="_blank" href="https://x.com/">
-                      <img src="/twitter.svg" alt="" />
+                    <a target="_blank" href="https://www.youtube.com/@Globaledifice/">
+                      <img src="/youtube.png" alt="" />
                     </a>
-                    <a target="_blank" href="https://www.linkedin.com/">
+                    <a target="_blank" href="https://twitter.com/globaledifice">
+                      <img src="/twitter1.png" alt="" />
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/company/global-edifice-top-construction-company-in-bangalore/">
                       <img src="/linkedin-contact.svg" alt="" />
                     </a>
-                    <a target="_blank" href="https://www.instagram.com/">
+                    <a target="_blank" href="https://www.instagram.com/globaledifice/">
                       <img src="/instagram.svg" alt="" />
                     </a>
                   </div>

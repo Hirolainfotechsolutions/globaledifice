@@ -20,7 +20,7 @@ const store = configureStore({
     getDefaultMiddleware({
       serializableCheck: false,
       immutableStateInvariantCheck: false,
-    }).concat(thunkMiddleware),
+    }),
 });
 
 export default store;

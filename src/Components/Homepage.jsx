@@ -14,6 +14,7 @@ import HomeNewBanner from './HomeNewBanner'
 import HomePageIntro from './HomePageIntro'
 import WhatsappAction from './WhatsappAction'
 import HomeAboutUsNew from './HomeAboutUsNew'
+import BuildingText from './BuildingText'
 const Homepage = () => {
     useEffect(()=>{
         window.scrollTo(0,0)
@@ -30,9 +31,10 @@ const Homepage = () => {
                 <WhyUs />
                 <HomeProjects/>
                 {/* <HomeWhyChoose /> */}
-                <Testimonials/>
+                <BuildingText/>
                 <Blogs/>
-                <OurStrengths/>
+                <Testimonials/>
+                {/* <OurStrengths/> */}
                 <WhatsappAction/>
                 <Footer/>
             </div>

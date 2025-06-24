@@ -15,12 +15,12 @@ const FAQ = () => {
       question:
         "What is the starting price for Global Edifice Legacy and Orlean projects?",
       answer:
-        "Global Edifice brings you premium residential projects with modern amenities and strategic locations. Our flagship projects Global Edifice Legacy and Green Apple Hikes start from INR 75 lakhs*, while our luxury project Orlean offers premium living spaces starting from INR 1.2 Cr*.",
+        "Global Edifice brings you premium residential projects with modern amenities and strategic locations. Our flagship projects Global Edifice Legacy start from INR 73 lakhs*, while our luxury project Orlean offers premium living spaces starting from INR 76 lakhs*.",
     },
     {
       question: "What is Global Edifice's history, mission and vision?",
       answer:
-        "With over 15 years of excellence in the real estate market, Global Edifice has established itself as one of the top builders in Bangalore. Our mission is to transform dreams into reality for every homebuyer by developing gated communities and affordable flats that offer more than just living spaces. Our vision encompasses creating vibrant hubs that offer comfort, foster relationships, and stand as assets to be proud of, while making Bangalore's real estate market more dynamic for future generations.",
+        "With over 10 years of excellence in the real estate market, Global Edifice has established itself as one of the top builders in Bangalore. Our mission is to transform dreams into reality for every homebuyer by developing gated communities and affordable flats that offer more than just living spaces. Our vision encompasses creating vibrant hubs that offer comfort, foster relationships, and stand as assets to be proud of, while making Bangalore's real estate market more dynamic for future generations.",
     },
     {
       question:
@@ -31,12 +31,12 @@ const FAQ = () => {
     {
       question: "Where are Global Edifice projects located in Bangalore?",
       answer:
-        "Global Edifice has strategically positioned projects across Bangalore's most promising locations. Our developments can be found in high-growth areas such as Electronic City, South Bangalore, Bommasandra, Thirumagondanahalli, and Kanakapura Road. Each location is chosen based on connectivity, infrastructure development potential, and quality of life factors. Contact us at (+91 9876543210) or email (info@globaledifice.in) to learn more about our project locations.",
+        "Global Edifice has strategically positioned projects across Bangalore's most promising locations. Our developments can be found in high-growth areas such as Electronic City, South Bangalore, Bommasandra, Thirumagondanahalli, and Sarjapura. Each location is chosen based on connectivity, infrastructure development potential, and quality of life factors. Contact us at (+91 80 4376 0152) or email (info@globaledifice.in) to learn more about our project locations.",
     },
     {
       question: "Can we book a site visit for your projects?",
       answer:
-        "Absolutely! We encourage potential homebuyers to visit our projects before making their decision. Our team conducts guided site visits where you can experience the quality of construction, amenities, and neighborhood firsthand. You can schedule a site visit by calling our customer care at (+91 9876543210) or by filling out the site visit request form on our website. Our representatives will arrange a visit at your convenience and answer all your questions about the property.",
+        "Absolutely! We encourage potential homebuyers to visit our projects before making their decision. Our team conducts guided site visits where you can experience the quality of construction, amenities, and neighborhood firsthand. You can schedule a site visit by calling our customer care at (+91 80 4376 0152) or by filling out the site visit request form on our website. Our representatives will arrange a visit at your convenience and answer all your questions about the property.",
     },
     {
       question:

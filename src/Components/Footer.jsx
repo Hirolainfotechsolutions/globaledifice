@@ -39,17 +39,17 @@ const Footer = () => {
                 </div>
                 <div className="Footer-social-links">
                   <div className="Footer-social-icons">
-                    <a target="_blank" href="https://www.facebook.com/profile.php?id=61552003201893">
+                    <a target="_blank" href="https://www.facebook.com/Globaledifce/">
                       <img src="/facebook.svg" alt="" />
                     </a>
                   </div>
                   <div className="Footer-social-icons">
                     <a target="_blank" href="https://twitter.com/globaledifice">
-                      <img src="/twitter.svg" alt="" />
+                      <img src="/twitter1.png" alt="" />
                     </a>
                   </div>
                   <div className="Footer-social-icons">
-                    <a target="_blank" href="https://www.youtube.com/">
+                    <a target="_blank" href="https://www.youtube.com/@Globaledifice/">
                       <img src="/youtube.png" alt="" />
                     </a>
                   </div>
@@ -59,7 +59,7 @@ const Footer = () => {
                     </a>
                   </div>
                   <div className="Footer-social-icons">
-                    <a target="_blank" href="https://www.linkedin.com/company/99212957/admin/dashboard/">
+                    <a target="_blank" href="https://www.linkedin.com/company/global-edifice-top-construction-company-in-bangalore/">
                       <img src="/linkedin.svg" alt="" />
                     </a>
                   </div>
@@ -92,6 +92,17 @@ const Footer = () => {
                     </a>
                     <a href="/ongoing-project-details/legacy-in-chandapura-bangalore">
                       Global Edifice Legacy
+                    </a>
+                  </div>
+                  <div className="links-heading  mt-4">
+                    <h5>Vendors</h5>
+                  </div>
+                  <div className="row quick-links">
+                    <a href="/ongoing-project-details/orlean-in-chandapura-bangalore">
+                      Channel Parters
+                    </a>
+                    <a href="/ongoing-project-details/legacy-in-chandapura-bangalore">
+                      Land Owners
                     </a>
                   </div>
                 </div>
@@ -130,7 +141,7 @@ const Footer = () => {
                         <p>sales@globaledifice.in</p>
                       </div>
                     </a>
-                    <a href="tel:+91 900 832 4444">
+                    <a href="tel:+91 80 4376 0152">
                       <div className="row">
                         <img
                           className="icons-img"
@@ -139,7 +150,7 @@ const Footer = () => {
                           height={"20"}
                           alt="mailicon"
                         />
-                        <p>+91 900 832 4444</p>
+                        <p>+91 80 4376 0152</p>
                       </div>
                     </a>
                     <a href="">

@@ -106,7 +106,7 @@ const HomeAboutUsNew = () => {
                 <div className="col-md-6 cards-fit-width">
                   <div className="compare-statistics">
                     <div className="number">
-                      <h2>{Math.ceil(counters.unitsQuality)} Millions </h2>
+                      <h2>{Math.ceil(counters.unitsQuality)} Million </h2>
                     </div>
                     <div className="number-suffix">
                       <h2>Sq.ft</h2>

@@ -12,15 +12,7 @@ const WhyUs = () => {
             </div>
             <div className="Whyus-desc">
               <p className="Whyus-desc-content">
-                As a distinguished leader among Bangalore's premier developers,
-                Global Edifice is redefining the city's architectural narrative
-                through exceptional mid-rise and high-rise residences that
-                seamlessly merge design sophistication with contemporary luxury.
-                Our comprehensive portfolio—from thoughtfully curated new
-                residential offerings to meticulously crafted living
-                spaces—exemplifies our unwavering commitment to precision,
-                superior craftsmanship, and an uncompromising passion for
-                excellence.
+               A residence transcends mere shelter—it becomes the canvas upon which life's most cherished narratives unfold. Over time, these intimate moments weave the tapestry of our existence, creating the very essence of belonging that inspires and nurtures. Crafting a home, therefore, extends beyond architectural aesthetics—it's about creating environments that resonate with your authentic lifestyle vision while honoring your cultural values and personal journey. Each space we design becomes a catalyst for your unique story, where your principles and experiences converge to create extraordinary living. 
               </p>
               <div className="WhyUs-content-sub-parent">
                 <div className="WhyUs-content-sub-parent-sub">
@@ -46,16 +38,7 @@ const WhyUs = () => {
           </div>
           <div className="Whyus-absoluteSection">
             <p>
-              “A residence transcends mere shelter—it becomes the canvas upon
-              which life's most cherished narratives unfold. Over time, these
-              intimate moments weave the tapestry of our existence, creating the
-              very essence of belonging that inspires and nurtures. Crafting a
-              home, therefore, extends beyond architectural aesthetics—it's
-              about creating environments that resonate with your authentic
-              lifestyle vision while honoring your cultural values and personal
-              journey. Each space we design becomes a catalyst for your unique
-              story, where your principles and experiences converge to create
-              extraordinary living. “
+            “ Discover your Advantage with Global Edifice, a trusted and leading force in Bengaluru's real estate landscape for over a decade. Our strength lies in offering you an expansive choice of premium living spaces, from modern high-rise and comfortable mid-rise apartments to exclusive villas. Each property is a testament to our unwavering commitment to excellence, featuring thoughtful amenities and Vastu compliance, ensuring your home is a sanctuary of comfort and harmony. We build with a passion for quality and an eye for future growth, making your investment a smart and secure choice. “
             </p>
           </div>
         </div>
