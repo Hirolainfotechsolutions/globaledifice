@@ -18,6 +18,7 @@ import TermsandConditions from "./Components/AdditionalPages/TermsandConditions"
 import Privacypolicy from "./Components/AdditionalPages/PrivacyPolicy";
 import Careers from "./Components/Careers/Careers";
 import ScrollToSection from "./Components/ScrollToSection";
+import Circleofdreams from "./Components/Circleofdreams";
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
           <Route path="/termsandconditions" element={<TermsandConditions />} />
           <Route path="/privacy-policy" element={<Privacypolicy />} />
           <Route path="/careers" element={<Careers />} />
+          <Route path="/ongoing-project-details/codename-circle-of-dreams" element={<Circleofdreams />} />
         </Routes>
       </BrowserRouter>
     </>

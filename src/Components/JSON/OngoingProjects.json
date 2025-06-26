@@ -395,5 +395,179 @@
                 "img": "/project-images/legacy-images/legacygalleryimg2.5.webp"
             }
         ]
+    },
+    {
+        "title": "Codename: Circle Of Dreams",
+        "slug": "codename-circle-of-dreams",
+        "description": "A home is more than just four walls it’s where memories are made and legacies are built. Legacy by Global Edifice is designed for families looking for a harmonious blend of nature, luxury, and modern living. Set amidst green open spaces, this thoughtfully crafted project ensures a peaceful retreat while keeping you close to essential conveniences.",
+        "description2": "With expansive layouts, Vastu-compliant homes, and premium amenities, Global Edifice Legacy is built for comfort, security, and a lifestyle that stands the test of time. Whether you're looking to invest in your future or find a home that truly resonates with your aspirations, Legacy offers a living experience unlike any other.",
+        "price": "Starting From 70 Lakhs",
+        "acre": "3.5",
+        "acretext": "ACRE",
+        "acreImg": "/icons/icons8-dimension-100.png",
+        "sqft": "1131-1825",
+        "sqfttext": "sq. ft.",
+        "sqftImg": "/icons/icons8-floor-plan-100.png",
+        "BHK": "Apartment",
+        "BHKtext": "Project Type",
+        "projectTypeImg": "/icons/icons8-apartment-100.png",
+        "unitstext": "Project Status",
+        "units": "In Progress",
+        "unitsImg": "/icons/icons8-status-100.png",
+        "phone": "+91 80 4376 0152",
+        "location": "Sarjapura, Bangalore",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3891.134594859436!2d77.7002469751195!3d12.769769987527335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6fd55ca411c9%3A0x8dcc40beeba0bbc1!2sGlobal%20Edifice%20Legacy!5e0!3m2!1sen!2sin!4v1747048102100!5m2!1sen!2sin",
+        "img1": "/project-images/CircleOfDreams2.jpg",
+        "img2": "/project-images/CircleOfDreams1.jpg",
+        "projectMainLogo": "/project-images/legacy-images/legacylogo1.1.avif",
+        "amenities": [
+            {
+                "text": "Children's Play Area",
+                "img": "/icons/playground_10683785.png"
+            },
+            {
+                "text": "Badminton Court",
+                "img": "/icons/badminton_18293424.png"
+            },
+            {
+                "text": "Swimming Pool",
+                "img": "/icons/pool.png"
+            },
+            {
+                "text": "Gym",
+                "img": "/icons/icons8-gym-100.png"
+            },
+            {
+                "text": "Community Hall",
+                "img": "/icons/governance_12444608.png"
+            },
+            {
+                "text": "24/7 Security",
+                "img": "/icons/24-hours-service_14252180.png"
+            }
+        ],
+        "landmarkList": "true",
+        "landmarkHeading1": "Transit",
+        "Landmarks1": [
+            {
+                "land": " Bus Station 0.5 Km"
+            },
+            {
+                "land": "Railway Station 3.5 Km"
+            },
+            {
+                "land": "Metro Station 5.5 Km"
+            },
+            {
+                "land": "Electronic City 7.5 Km"
+            },
+            {
+                "land": "Silk Board 20 Km"
+            }
+        ],
+        "landmarkHeading2": "Schools",
+        "Landmarks2": [
+            {
+                "land": "National Public 1.5 Km"
+            },
+            {
+                "land": "Manipal International 2.5 Km"
+            },
+            {
+                "land": "De Sales Academy 1.5 Km"
+            },
+            {
+                "land": "Alliance University 2.5 Km"
+            }
+        ],
+        "landmarkHeading3": "Hospitals",
+        "Landmarks3": [
+            {
+                "land": "Narayana Hrudayalaya 4.5 Km"
+            },
+            {
+                "land": "Athreya Hospital 2.5 Km"
+            },
+            {
+                "land": "Sparsh Hospital 4.4 Km"
+            },
+            {
+                "land": "Chakra Hospital 3.5 Km"
+            },
+            {
+                "land": "Vismaya Hospital 5.5 Km"
+            }
+        ],
+        "landmarkHeading4": "WorkHubs",
+        "Landmarks4": [
+            {
+                "land": "Infosys 6.5 Km"
+            },
+            {
+                "land": "Biocon 6.5 Km"
+            },
+            {
+                "land": "Wipro 6.9 Km"
+            },
+            {
+                "land": "TCS 6.5 Km"
+            },
+            {
+                "land": "Mankind 6.5 Km"
+            }
+        ],
+        "mainImg": [
+            {
+                "img": "/project-images/legacy-images/legacy-masterplan.webp"
+            },
+            {
+                "img": ""
+            },
+            {
+                "img": "/ProjectImages/smeraplan3.webp"
+            },
+            {
+                "img": "/ProjectImages/smeraplan4.webp"
+            }
+        ],
+        "oneBhkImages": [
+            {
+                "img": "/project-images/legacy-images/868sqft-2bhk-legacy.webp"
+            },
+            {
+                "img": "/project-images/legacy-images/893sqft-2bhk-legacy.webp"
+            }
+        ],
+        "twoBhkImages": [
+            {
+                "img": "/project-images/legacy-images/1153sqft-3bhk-legacy.webp"
+            },
+            {
+                "img": "/project-images/legacy-images/1251sqft-3bhk-legacy.webp"
+            },
+            {
+                "img": "/project-images/legacy-images/1341sqft-3bhk-legacy.webp"
+            },
+            {
+                "img": "/project-images/legacy-images/1206sqft-3bhk-legacy.webp"
+            }
+        ],
+        "images": [
+            {
+                "img": "/project-images/legacy-images/logatagalimg1.1.webp"
+            },
+            {
+                "img": "/project-images/legacy-images/legacygalleryimg2.2.webp"
+            },
+            {
+                "img": "/project-images/legacy-images/legacygalleryimg2.3.webp"
+            },
+            {
+                "img": "/project-images/legacy-images/legacygalleryimg2.4.webp"
+            },
+            {
+                "img": "/project-images/legacy-images/legacygalleryimg2.5.webp"
+            }
+        ]
     }
 ]

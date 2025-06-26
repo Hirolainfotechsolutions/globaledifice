@@ -112,7 +112,7 @@ const HomeAboutus = () => {
                 <div className="HomeAboutus-title-text">
                   <p>
                     {" "}
-                    At Global Edifice, We don't just build structures; we sculpt
+                    At Global Edifice, We don't just build structures; We sculpt
                     futures. As a beacon of trust in Bangalore's real estate, we
                     lead with architectural innovation, crafting premium
                     mid-rise apartments where luxury isn't just seen, it's

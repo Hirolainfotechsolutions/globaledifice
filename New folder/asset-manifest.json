@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4dbb99c9.css",
+    "main.js": "/static/js/main.c8c1294b.js",
+    "static/js/453.7ebe8601.chunk.js": "/static/js/453.7ebe8601.chunk.js",
+    "static/media/home-aboutus.jpg": "/static/media/home-aboutus.6e883b81d3e09a88c463.jpg",
+    "static/media/levenim-mt-bold.ttf": "/static/media/levenim-mt-bold.34219be4ddddfebd5254.ttf",
+    "static/media/levenim-mt-regular.ttf": "/static/media/levenim-mt-regular.e636d4a64904f200d83b.ttf",
+    "static/media/BG.jpg": "/static/media/BG.250d4d7fe039d33d022f.jpg",
+    "static/media/blogs-background.png": "/static/media/blogs-background.815bea4ff055bf494894.png",
+    "index.html": "/index.html",
+    "main.4dbb99c9.css.map": "/static/css/main.4dbb99c9.css.map",
+    "main.c8c1294b.js.map": "/static/js/main.c8c1294b.js.map",
+    "453.7ebe8601.chunk.js.map": "/static/js/453.7ebe8601.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4dbb99c9.css",
+    "static/js/main.c8c1294b.js"
+  ]
+}

@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "antd": "^5.19.3",
     "bootstrap": "^5.3.3",
+    "build": "^0.1.4",
     "force": "^0.0.3",
     "jquery": "^3.7.1",
     "popper.js": "^1.16.1",
