@@ -1,4 +1,7 @@
+import { LoadingOutlined } from "@ant-design/icons";
+import { Spin } from "antd";
 import React, { useState } from "react";
+import toast from "react-hot-toast";
 import { Link } from "react-router-dom";
 
 const ContactForm = () => {
@@ -13,6 +16,7 @@ const ContactForm = () => {
   const [errors, setErrors] = useState({});
   const [showModal, setShowModal] = useState(false);
   const [modalMessage, setModalMessage] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -31,16 +35,55 @@ const ContactForm = () => {
     return errors;
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsLoading(true);
     const formErrors = validateForm();
+
     if (Object.keys(formErrors).length === 0) {
-      setModalMessage("Your message has been sent successfully!");
+      try {
+        const response = await fetch(
+          "https://www.globaledifice.com/forms/edifice_enquiries.php",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(formData),
+          }
+        );
+
+        const data = await response.json();
+
+        if (response.ok) {
+          if (data.status === "success") {
+            toast.success("Form Submitted Successfully!");
+            // window.location.href =
+            //   "https://www.globaledifice.com/forms/thankyou.html";
+          } else {
+            console.error("Error:", data.message);
+            toast.error("Submission Failed, Please Try again After sometimes");
+            setModalMessage(
+              data.message || "An error occurred. Please try again."
+            );
+          }
+        } else {
+          console.error("Error:", data.message);
+          setModalMessage(
+            data.message || "An error occurred. Please try again."
+          );
+        }
+      } catch (error) {
+        console.error("Error submitting form:", error);
+        setModalMessage("An error occurred. Please try again later.");
+      }
     } else {
-      setModalMessage("Please correct the errors in the form");
+      setErrors(formErrors);
+      setModalMessage("Please correct the errors in the form.");
+      toast.error("please fill required fields");
     }
-    setErrors(formErrors);
-    setShowModal(true);
+
+    setIsLoading(false);
   };
 
   return (
@@ -81,19 +124,31 @@ const ContactForm = () => {
                     </p>
                   </div>
                   <div className="contactform-SocialLinks">
-                    <a target="_blank" href="https://www.facebook.com/Globaledifce/">
+                    <a
+                      target="_blank"
+                      href="https://www.facebook.com/Globaledifce/"
+                    >
                       <img src="/facebook.svg" alt="" />
                     </a>
-                    <a target="_blank" href="https://www.youtube.com/@Globaledifice/">
+                    <a
+                      target="_blank"
+                      href="https://www.youtube.com/@Globaledifice/"
+                    >
                       <img src="/youtube.png" alt="" />
                     </a>
                     <a target="_blank" href="https://twitter.com/globaledifice">
                       <img src="/twitter1.png" alt="" />
                     </a>
-                    <a target="_blank" href="https://www.linkedin.com/company/global-edifice-top-construction-company-in-bangalore/">
+                    <a
+                      target="_blank"
+                      href="https://www.linkedin.com/company/global-edifice-top-construction-company-in-bangalore/"
+                    >
                       <img src="/linkedin-contact.svg" alt="" />
                     </a>
-                    <a target="_blank" href="https://www.instagram.com/globaledifice/">
+                    <a
+                      target="_blank"
+                      href="https://www.instagram.com/globaledifice/"
+                    >
                       <img src="/instagram.svg" alt="" />
                     </a>
                   </div>
@@ -106,7 +161,7 @@ const ContactForm = () => {
                       <div className="col-md-6">
                         <input
                           type="text"
-                          name="name "
+                          name="name"
                           placeholder="Name *"
                           value={formData.name}
                           onChange={handleInputChange}
@@ -160,7 +215,17 @@ const ContactForm = () => {
                         />
                       </div>
                       <div className="Sendnowbutton">
-                        <button type="submit">Send Now ➜ </button>
+                        <button
+                          type="submit"
+                          disabled={isLoading}
+                          className={isLoading ? "loading" : ""}
+                        >
+                          {isLoading ? (
+                            <Spin indicator={<LoadingOutlined spin />} />
+                          ) : (
+                            "Send Now ➜"
+                          )}
+                        </button>
                       </div>
                     </div>
                   </div>

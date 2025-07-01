@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "./blogs.css";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import HomeNavbar from "../HomeNavbar";
 import Footer from "../Footer";
 import Blogsdata from "../JSON/Blogsdata.json";
 import WhatsappAction from "../WhatsappAction";
+import { Helmet } from "react-helmet-async";
 
 const Blogs = () => {
   useEffect(() => {
@@ -21,7 +22,10 @@ const Blogs = () => {
     setCurrentPage(page);
   };
 
-  const currentPosts = BlogsdataJosn.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
+  const currentPosts = BlogsdataJosn.slice(
+    (currentPage - 1) * itemsPerPage,
+    currentPage * itemsPerPage
+  );
 
   const getPageNumbers = () => {
     const maxPageNumbers = 4;
@@ -42,6 +46,16 @@ const Blogs = () => {
 
   return (
     <>
+      <Helmet>
+        <title>
+          Real Estate Insights & Property Trends | Global Edifice Blogs
+        </title>
+        <meta
+          name="description"
+          content="Discover expert real estate tips, market trends, and home buying insights at Global Edifice Blogs Stay informed and make smarter property investment decisions"
+          data-rh="true"
+        />
+      </Helmet>
       <div className="Gavityblogpage-main-page-head">
         <div className="Blogs-banner-background">
           <HomeNavbar />
@@ -58,13 +72,24 @@ const Blogs = () => {
               <div className="row Gavityblogpage-block-two-main">
                 <div className="col-lg-6 col-md-6 col-sm-12">
                   <div className="Gavityblogpage-block-two-popular-img">
-                    <img src={BlogsdataJosn[0].mainimage} alt={BlogsdataJosn[0].title} />
+                    <img
+                      src={BlogsdataJosn[0].mainimage}
+                      alt={BlogsdataJosn[0].title}
+                    />
                   </div>
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-12">
                   <div className="Gavityblogpage-block-two-popular-lines">
-                    <h4>{BlogsdataJosn[0].title ? BlogsdataJosn[0].title.slice(0, 100) + "..." : BlogsdataJosn[0].title}</h4>
-                    <p>{BlogsdataJosn[0].description ? BlogsdataJosn[0].description.slice(0, 500) + "..." : BlogsdataJosn[0].description}</p>
+                    <h4>
+                      {BlogsdataJosn[0].title
+                        ? BlogsdataJosn[0].title.slice(0, 100) + "..."
+                        : BlogsdataJosn[0].title}
+                    </h4>
+                    <p>
+                      {BlogsdataJosn[0].description
+                        ? BlogsdataJosn[0].description.slice(0, 500) + "..."
+                        : BlogsdataJosn[0].description}
+                    </p>
                     <div className="Gavityblogpage-block-two-popular-arrow-logo">
                       <Link to={`/blog/${BlogsdataJosn[0].slug}`}>
                         <img src="gavityphotos/Arrowimg.svg" alt="" />
@@ -78,14 +103,18 @@ const Blogs = () => {
               <h5>Articles & News</h5>
             </div>
             <div className="row Gavityblogpage-Articles-News-main">
-              {currentPosts.map(post => (
+              {currentPosts.map((post) => (
                 <div key={post.id} className="col-lg-4 col-sm-6 col-md-6">
                   <div className="Gavityblogpage-Articles-card-main">
                     <div className="Gavityblogpage-Articles-card-img">
                       <img src={post.mainimage} alt="" />
                       <h6 className="blogs-category-badge">{post.category}</h6>
                     </div>
-                    <h4>{post.title ? post.title.slice(0, 60) + "..." : post.title}</h4>
+                    <h4>
+                      {post.title
+                        ? post.title.slice(0, 60) + "..."
+                        : post.title}
+                    </h4>
                     <div className="Gavityblogpage-Articles-card-date-and-arrow">
                       <p>{post.date}</p>
                       <div className="Gavityblogpage-block-two-popular-arrow-logo-two">
@@ -99,21 +128,31 @@ const Blogs = () => {
               ))}
             </div>
             <div className="pagination">
-              <button onClick={() => handlePageChange(currentPage - 1)} disabled={currentPage === 1}>
+              <button
+                onClick={() => handlePageChange(currentPage - 1)}
+                disabled={currentPage === 1}
+              >
                 ‹
               </button>
-              {getPageNumbers().map(page => (
-                <button key={page} onClick={() => handlePageChange(page)} className={page === currentPage ? "active" : ""}>
+              {getPageNumbers().map((page) => (
+                <button
+                  key={page}
+                  onClick={() => handlePageChange(page)}
+                  className={page === currentPage ? "active" : ""}
+                >
                   {page}
                 </button>
               ))}
-              <button onClick={() => handlePageChange(currentPage + 1)} disabled={currentPage === totalPages}>
+              <button
+                onClick={() => handlePageChange(currentPage + 1)}
+                disabled={currentPage === totalPages}
+              >
                 ›
               </button>
             </div>
           </div>
         </div>
-        <WhatsappAction/>
+        <WhatsappAction />
         <Footer />
       </div>
     </>
