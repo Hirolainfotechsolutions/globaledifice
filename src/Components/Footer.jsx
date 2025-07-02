@@ -1,16 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import ContactFormModal from "./Contactus/ContactFormModal";
 const Footer = () => {
-  const navigate = useNavigate();
-
-  // Function to handle navigation to sections on different pages
-  const handleSectionNavigation = (path, section) => {
-    // Navigate programmatically to ensure complete page reload
-    navigate(path);
-
-    // Set a flag in session storage to indicate which section to scroll to after navigation
-    sessionStorage.setItem("scrollToSection", section);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const showModal = () => {
+    setIsModalOpen(true);
   };
+  const handleOk = () => {
+    setIsModalOpen(false);
+  };
+  const handleCancel = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <>
       <div className="Footer-main-parent">
@@ -39,7 +41,10 @@ const Footer = () => {
                 </div>
                 <div className="Footer-social-links">
                   <div className="Footer-social-icons">
-                    <a target="_blank" href="https://www.facebook.com/Globaledifce/">
+                    <a
+                      target="_blank"
+                      href="https://www.facebook.com/Globaledifce/"
+                    >
                       <img src="/facebook.svg" alt="" />
                     </a>
                   </div>
@@ -49,17 +54,26 @@ const Footer = () => {
                     </a>
                   </div>
                   <div className="Footer-social-icons">
-                    <a target="_blank" href="https://www.youtube.com/@Globaledifice/">
+                    <a
+                      target="_blank"
+                      href="https://www.youtube.com/@Globaledifice/"
+                    >
                       <img src="/youtube.png" alt="" />
                     </a>
                   </div>
                   <div className="Footer-social-icons">
-                    <a target="_blank" href="https://www.instagram.com/globaledifice/?next=%2F&hl=en">
+                    <a
+                      target="_blank"
+                      href="https://www.instagram.com/globaledifice/?next=%2F&hl=en"
+                    >
                       <img src="/instagram.svg" alt="" />
                     </a>
                   </div>
                   <div className="Footer-social-icons">
-                    <a target="_blank" href="https://www.linkedin.com/company/global-edifice-top-construction-company-in-bangalore/">
+                    <a
+                      target="_blank"
+                      href="https://www.linkedin.com/company/global-edifice-top-construction-company-in-bangalore/"
+                    >
                       <img src="/linkedin.svg" alt="" />
                     </a>
                   </div>
@@ -98,10 +112,10 @@ const Footer = () => {
                     <h5>Vendors</h5>
                   </div>
                   <div className="row quick-links">
-                    <a href="/ongoing-project-details/orlean-in-chandapura-bangalore">
+                    <a href="#" onClick={showModal}>
                       Channel Parters
                     </a>
-                    <a href="/ongoing-project-details/legacy-in-chandapura-bangalore">
+                    <a href="#" onClick={showModal}>
                       Land Owners
                     </a>
                   </div>
@@ -194,6 +208,12 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <ContactFormModal
+        isModalOpen={isModalOpen}
+        setIsModalOpen={setIsModalOpen}
+        handleOk={handleOk}
+        handleCancel={handleCancel}
+      />
     </>
   );
 };

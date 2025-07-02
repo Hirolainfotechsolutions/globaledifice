@@ -12,7 +12,7 @@ const ContactBanner = () => {
                             </div>
                         </div>
                         <div className='ProjectsBanner-Banner-text'>
-                            <h2>We love meeting new people and helping them.</h2>
+                            <h2>We love meeting new people and being part of their story, one home at a time.</h2>
                         </div>
                     </div>
                 </div>
